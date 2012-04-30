@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Events Manager 4.171\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/events-manager\n"
 "POT-Creation-Date: 2011-09-20 20:44:48+00:00\n"
-"PO-Revision-Date: 2012-04-25 12:06+0200\n"
+"PO-Revision-Date: 2012-04-30 12:48+0200\n"
 "Last-Translator: Otto Kekäläinen <otto@seravo.fi>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -59,13 +59,11 @@ msgstr ""
 msgid "Events"
 msgstr "Tapahtumat"
 
-# @ default
 #: admin/em-options.php:1179
 #: em-functions.php:504
 msgid "Yes"
 msgstr "Kyllä"
 
-# @ default
 #: admin/em-options.php:1180
 #: em-functions.php:504
 msgid "No"
@@ -428,7 +426,6 @@ msgstr ""
 msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
 msgstr ""
 
-# @ default
 #: em-functions.php:331
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr ""
@@ -443,7 +440,6 @@ msgstr ""
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr ""
 
-# @ default
 #: em-functions.php:341
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
 msgstr ""
@@ -493,7 +489,6 @@ msgstr ""
 msgid "There was a problem saving the ticket."
 msgstr ""
 
-# @ default
 #: classes/em-event.php:476
 #: classes/em-ticket-booking.php:113
 #: classes/em-ticket.php:161
@@ -523,7 +518,6 @@ msgstr "Maa"
 msgid " is required."
 msgstr "on pakollinen."
 
-# @ default
 #: admin/em-bookings.php:129
 #: admin/em-ms-options.php:166
 #: admin/em-options.php:347
@@ -1526,7 +1520,6 @@ msgstr "Tapahtumapaikat"
 msgid "All %s"
 msgstr "Kaikki %s"
 
-# @ default
 #: admin/bookings/em-cancelled.php:49
 #: admin/bookings/em-confirmed.php:50
 #: admin/bookings/em-events.php:54
@@ -1542,7 +1535,6 @@ msgstr ""
 msgid "Delete selected"
 msgstr "Poista valitut"
 
-# @ default
 #: admin/bookings/em-events.php:57
 #: templates/tables/locations.php:23
 msgid "Apply"
@@ -1805,7 +1797,6 @@ msgstr ""
 msgid "This accepts %s, %s and %s placeholders."
 msgstr ""
 
-# @ default
 #: admin/em-ms-options.php:61
 #: admin/em-ms-options.php:199
 #: admin/em-options.php:197
@@ -3059,7 +3050,6 @@ msgstr ""
 msgid "Total"
 msgstr "Yhteensä"
 
-# @ default
 #: admin/bookings/em-events.php:69
 #: classes/em-bookings-table.php:388
 msgid "Filter"
@@ -3091,37 +3081,30 @@ msgstr ""
 msgid "Events Manager"
 msgstr ""
 
-# @ default
 #: em-functions.php:238
 msgid "Mon"
 msgstr "Ma"
 
-# @ default
 #: em-functions.php:238
 msgid "Tue"
 msgstr "Ti"
 
-# @ default
 #: em-functions.php:238
 msgid "Wed"
 msgstr "Ke"
 
-# @ default
 #: em-functions.php:238
 msgid "Thu"
 msgstr "To"
 
-# @ default
 #: em-functions.php:238
 msgid "Fri"
 msgstr "Pe"
 
-# @ default
 #: em-functions.php:238
 msgid "Sat"
 msgstr "La"
 
-# @ default
 #: em-functions.php:238
 msgid "Sun"
 msgstr "Su"
@@ -3252,7 +3235,6 @@ msgstr ""
 msgid "Booking Confirmed"
 msgstr ""
 
-# @ default
 #: em-debug.php:44
 msgid "You are in Events Manager debug mode. To turn debug mode off, go to the <a href=\"%s\">settings</a> page."
 msgstr ""
@@ -3486,12 +3468,10 @@ msgstr ""
 msgid "Uninstall"
 msgstr "Poista asennus"
 
-# @ default
 #: admin/em-ms-options.php:6
 msgid "Update Network"
 msgstr ""
 
-# @ default
 #: admin/em-ms-options.php:24
 msgid "To update your network blogs with the latest Events Manager automatically, click the update button below."
 msgstr ""
@@ -3506,7 +3486,6 @@ msgstr "Päivitä"
 msgid "General"
 msgstr "Yleinen"
 
-# @ default
 #: admin/em-ms-options.php:157
 msgid "%s belonging to other sub-sites will have an extra slug preppended to it so that your main site can differentiate between its own %s and those belonging to other sites in your network."
 msgstr ""
@@ -3519,7 +3498,6 @@ msgstr ""
 msgid "Displays %s from all sites on the network by default. You can still restrict %s by blog using shortcodes and template tags coupled with the <code>blog</code> attribute. Requires global tables to be turned on."
 msgstr ""
 
-# @ default
 #: admin/em-ms-options.php:160
 msgid "You <strong>must</strong> have assigned a %s page in your <a href=\"%s\">main blog settings</a> for this to work."
 msgstr ""
@@ -3597,7 +3575,6 @@ msgstr ""
 msgid "Uninstall and Deactivate"
 msgstr ""
 
-# @ default
 #: admin/em-options.php:281
 #: admin/em-options.php:459
 #: admin/em-options.php:630
@@ -3689,7 +3666,6 @@ msgstr ""
 msgid "Be aware that some themes will not work with this option, if so (or you want to make your own changes), you can create a file named <code>single-%s.php</code> <a href='#'>as shown on the wordpress codex</a>, and leave this set to Posts."
 msgstr ""
 
-# @ default
 #: admin/em-options.php:430
 msgid "By using formats, you can control how your %s are displayed from within the Events Manager <a href='#formats' class='nav-tab-link' rel='#em-menu-formats'>Formats</a> tab above without having to edit your theme files."
 msgstr ""
@@ -3709,7 +3685,6 @@ msgstr ""
 msgid "e.g. %s - you can use / seperators too"
 msgstr ""
 
-# @ default
 #: admin/em-options.php:446
 #: admin/em-options.php:850
 #: em-posts.php:50
@@ -3728,7 +3703,6 @@ msgstr ""
 msgid "Display %s as"
 msgstr ""
 
-# @ default
 #: admin/em-options.php:459
 #: admin/em-options.php:630
 msgid "Posts"
@@ -3884,7 +3858,6 @@ msgstr ""
 msgid "tags"
 msgstr "avainsanat"
 
-# @ default
 #: admin/em-options.php:884
 msgid "These pages allow you to provide an event management interface outside the admin area on whatever page you want on your website. Bear in mind that this is overriden by BuddyPress if activated."
 msgstr ""
@@ -3995,7 +3968,6 @@ msgstr ""
 msgid "Date Format"
 msgstr "Päiväyksen muoto"
 
-# @ default
 #: admin/em-options.php:996
 #: admin/em-options.php:998
 msgid "For use with the %s placeholder"
@@ -4283,7 +4255,6 @@ msgstr ""
 msgid "Recurrences"
 msgstr ""
 
-# @ default
 #: classes/em-event-post.php:94
 #: classes/em-event-post.php:97
 #: classes/em-event-post.php:102
@@ -4293,12 +4264,10 @@ msgstr ""
 msgid "View all posts in %s"
 msgstr ""
 
-# @ default
 #: classes/em-event-posts-admin.php:74
 msgid "View all categories"
 msgstr ""
 
-# @ default
 #: classes/em-event-posts-admin.php:111
 #: classes/em-event-posts-admin.php:248
 msgid "Date and Time"
@@ -4332,7 +4301,6 @@ msgstr ""
 msgid "Modifications to these events will cause all recurrences of each event to be deleted and recreated and previous bookings will be deleted! You can edit individual recurrences and detach them from recurring events by visiting the <a href=\"%s\">events page</a>."
 msgstr ""
 
-# @ default
 #: classes/em-event.php:440
 msgid "Event name"
 msgstr ""
@@ -4341,13 +4309,11 @@ msgstr ""
 msgid "Since the event is repeated, you must specify an event end date greater than the start date."
 msgstr ""
 
-# @ default
 #: classes/em-event.php:560
 #: classes/em-event.php:563
 msgid "There were some errors saving your location."
 msgstr ""
 
-# @ default
 #: classes/em-event.php:560
 msgid "It will not be displayed on the website listings, to correct this you must <a href=\"%s\">edit your location</a> directly."
 msgstr ""
@@ -4395,7 +4361,6 @@ msgstr ""
 msgid "Event could not be attached."
 msgstr ""
 
-# @ default
 #: classes/em-location.php:242
 #: widgets/em-locations.php:22
 msgid "Location name"
@@ -4430,7 +4395,6 @@ msgstr ""
 msgid "New Booking"
 msgstr ""
 
-# @ default
 #: em-posts.php:51
 #: em-posts.php:54
 msgid "Event Tag"
@@ -4546,7 +4510,6 @@ msgstr "Lisää uusi tapahtuma"
 msgid "New Event"
 msgstr ""
 
-# @ default
 #: em-posts.php:148
 #: em-posts.php:194
 #: em-posts.php:241
@@ -4686,7 +4649,6 @@ msgstr ""
 msgid "You do not have permission to upload images"
 msgstr ""
 
-# @ default
 #: templates/forms/event/attributes.php:51
 msgid "If you see any attributes under here, that means they're not used in Events Manager formats. To add them, you need to add the custom attribute again to a formatting option in the settings page. To remove any of these depreciated attributes, give it a blank value and save."
 msgstr ""
@@ -4695,12 +4657,10 @@ msgstr ""
 msgid "No groups defined yet."
 msgstr ""
 
-# @ default
 #: templates/forms/event/location.php:9
 msgid "This event does not have a physical location."
 msgstr "Tapahtumalla ei ole fyysistä tapahtumapaikkaa."
 
-# @ default
 #: templates/forms/event/location.php:31
 msgid "No Location"
 msgstr "Ei paikkaa"
@@ -4862,18 +4822,15 @@ msgstr ""
 msgid "WordPress %s Archives"
 msgstr ""
 
-# @ default
 #: admin/em-options.php:497
 #: admin/em-options.php:655
 msgid "%s custom post types can have archives, just like normal WordPress posts. If enabled, should you visit your base slug url %s and you will see an post-formatted archive of previous %s"
 msgstr ""
 
-# @ default
 #: admin/em-options.php:498
 msgid "Note that assigning a %s page above will override this archive if the URLs collide (which is the default settings, and is recommended). You can have both at the same time, but you must ensure that your page and %s slugs are different."
 msgstr ""
 
-# @ default
 #: admin/em-options.php:656
 msgid "Note that assigning a %s page above will override this archive if the URLs collide (which is the default settings, and is recommended for maximum plugin compatability). You can have both at the same time, but you must ensure that your page and %s slugs are different."
 msgstr ""
@@ -5088,7 +5045,6 @@ msgstr ""
 msgid "Development Versions &amp; Updates"
 msgstr ""
 
-# @ default
 #: admin/em-options.php:1635
 msgid "We're always making improvements, adding features and fixing bugs between releases. We incrementally make these changes in between updates and make it available as a development version. You can download these manually, but we've made it easy for you. <strong>Warning:</strong> Development versions are not always fully tested before release, use wisely!"
 msgstr ""
@@ -5097,7 +5053,6 @@ msgstr ""
 msgid "Enable Dev Updates?"
 msgstr ""
 
-# @ default
 #: admin/em-options.php:1637
 msgid "If enabled, the latest dev version will always be checked instead of the latest stable version of the plugin."
 msgstr ""
@@ -5186,7 +5141,6 @@ msgstr ""
 msgid "Split bookings by ticket type"
 msgstr ""
 
-# @ default
 #: classes/em-bookings-table.php:285
 msgid "If your events have multiple tickets, enabling this will show a seperate row for each ticket within a booking."
 msgstr ""
@@ -5238,7 +5192,6 @@ msgstr "ID"
 msgid "%s ID"
 msgstr "%s ID"
 
-# @ default
 #: classes/em-event.php:457
 msgid "For recurring events that end the following day, ensure you make your event last 1 or more days."
 msgstr ""
@@ -5335,7 +5288,7 @@ msgstr "Paikan nimi:"
 #: templates/forms/event/recurring-when.php:13
 #: templates/forms/event/when-with-recurring.php:35
 msgid "Yearly"
-msgstr ""
+msgstr "Vuosittain"
 
 #: templates/forms/event/recurring-when.php:25
 #: templates/forms/event/when-with-recurring.php:47
@@ -5351,7 +5304,6 @@ msgstr "vuotta"
 msgid "You don't have any custom attributes defined in any of your Locations Manager template settings. Please add them the <a href='%s'>settings page</a>"
 msgstr ""
 
-# @ default
 #: templates/forms/location/attributes.php:51
 msgid "If you see any attributes under here, that means they're not used in Locations Manager formats. To add them, you need to add the custom attribute again to a formatting option in the settings page. To remove any of these depreciated attributes, give it a blank value and save."
 msgstr ""
