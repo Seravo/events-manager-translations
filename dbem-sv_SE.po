@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Events Manager\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-03-04 12:40+0200\n"
+"PO-Revision-Date: 2014-03-11 11:59+0200\n"
 "Last-Translator: Otto Kekäläinen <otto@seravo.fi>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -2487,7 +2487,7 @@ msgstr "Visa länder?"
 
 #: admin/em-options.php:1233
 msgid "All countries text"
-msgstr "Alla länder-text"
+msgstr "Alla länder -text"
 
 #: admin/em-options.php:1235
 #: em-install.php:375
@@ -2500,7 +2500,7 @@ msgstr "Visa regioner?"
 
 #: admin/em-options.php:1239
 msgid "All regions text"
-msgstr "Alla regioner-text"
+msgstr "Alla regioner -text"
 
 #: admin/em-options.php:1241
 #: em-install.php:378
@@ -2509,11 +2509,11 @@ msgstr "Stat/Län"
 
 #: admin/em-options.php:1243
 msgid "Show states?"
-msgstr "Visa stater?"
+msgstr "Visa delstater?"
 
 #: admin/em-options.php:1245
 msgid "All states text"
-msgstr "Alla stater-text"
+msgstr "Alla delstater -text"
 
 #: admin/em-options.php:1247
 #: em-install.php:381
@@ -4184,13 +4184,13 @@ msgstr "Redigera Evenemang"
 #: em-posts.php:143
 #: templates/buddypress/profile.php:22
 msgid "Add Event"
-msgstr "Lägg till Evenemang"
+msgstr "Lägg till evenemang"
 
 #: buddypress/screens/my-locations.php:46
 #: em-events.php:190
 #: em-posts.php:238
 msgid "Add Location"
-msgstr "Lägg till Plats"
+msgstr "Lägg till plats"
 
 #: buddypress/screens/my-locations.php:48
 #: classes/em-location.php:833
@@ -4888,11 +4888,11 @@ msgstr "Stat"
 
 #: classes/em-location.php:106
 msgid "The location address"
-msgstr "Platsadress"
+msgstr "Platsens adress"
 
 #: classes/em-location.php:106
 msgid "The location town"
-msgstr "Platsen stad"
+msgstr "Platsens stad"
 
 #: classes/em-location.php:106
 msgid "The country"
@@ -4907,7 +4907,7 @@ msgstr "Platsnamn"
 #: classes/em-location.php:272
 #: classes/em-location.php:274
 msgid " is required."
-msgstr "krävs"
+msgstr " krävs."
 
 #: classes/em-location.php:412
 #, php-format
@@ -5245,23 +5245,23 @@ msgstr "och"
 
 #: em-install.php:368
 msgid "All Categories"
-msgstr "Alla Kategorier"
+msgstr "Alla kategorier"
 
 #: em-install.php:371
 msgid "All Countries"
-msgstr "Alla Länder"
+msgstr "Alla länder"
 
 #: em-install.php:374
 msgid "All Regions"
-msgstr "Alla Regioner"
+msgstr "Alla regioner"
 
 #: em-install.php:377
 msgid "All States"
-msgstr "All States"
+msgstr "All delstater"
 
 #: em-install.php:380
 msgid "All Cities/Towns"
-msgstr "Alla Städer/Orter"
+msgstr "Alla städer/orter"
 
 #: em-install.php:388
 #: em-install.php:392
@@ -5300,7 +5300,7 @@ msgstr "Inga %s"
 #: em-install.php:498
 #: em-install.php:517
 msgid "Upcoming Events"
-msgstr "Kommande Evenemang"
+msgstr "Kommande evenemang"
 
 #: em-install.php:480
 #: em-install.php:486
@@ -5657,7 +5657,7 @@ msgstr "Visa platser på din blog."
 
 #: em-posts.php:239
 msgid "Add New Location"
-msgstr "Lägg till ny Plats"
+msgstr "Lägg till ny plats"
 
 #: em-posts.php:242
 msgid "New Location"
@@ -6396,7 +6396,7 @@ msgstr "Karta Otillgänglig"
 #: templates/tables/events.php:11
 #: templates/tables/locations.php:4
 msgid "Add New"
-msgstr "Lägg till Ny"
+msgstr "Lägg till ny"
 
 #: templates/tables/events.php:18
 msgid "Upcoming"
